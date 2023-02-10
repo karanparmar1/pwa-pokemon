@@ -200,7 +200,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
           navigator.serviceWorker
-            .register("/serviceWorker.js")
+            .register("/pwa-pokemon/serviceWorker.js")
             .then((reg) => {
               console.log("Worker Registered");
             })
